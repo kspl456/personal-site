@@ -1,0 +1,11 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+section{
+    padding: 20vh;
+    margin: 20vh 0;
+    border: 1% solid #ccc;
+}
