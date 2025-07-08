@@ -150,8 +150,9 @@
 <!--Education section-->
     <section id="education">
         <h2>Education</h2>
-        <!--Road map using javascript-->
+        <div id="education-roadmap" class="roadmap-container"></div>
     </section>
+
 
 <!--Certifications section-->
     <section id="certifications">
@@ -217,6 +218,53 @@
 </svg>
         <a href="https://www.linkedin.com/in/kappagantula-satya-priya-lahari-8b0a1b1b6/">Kappagantula Satya Priya Lahari</a>
     </section>
+<script>
+  const educationData = [
+    {
+      level: "Class 10",
+      school: "Sri Sathya Sai Vidya Vihar, Visakhapatnam",
+      board: "CBSE",
+      year: "2020",
+      score: "89.2%"
+    },
+    {
+      level: "Intermediate",
+      school: "Sri Chaitanya Junior College",
+      board: "APBIE",
+      year: "2022",
+      score: "91.9%"
+    },
+    {
+      level: "B.Tech",
+      school: "Lendi Institute of Engineering and Technology",
+      board: "JNTUGV",
+      year: "2022 – 2026",
+      score: "CGPA: 9.32"
+    }
+  ];
+
+  const container = document.getElementById("education-roadmap");
+
+  educationData.forEach((item, index) => {
+    const box = document.createElement("div");
+    box.className = "edu-box";
+    box.innerHTML = `
+      <h3>${item.level}</h3>
+      <p><strong>Institution:</strong> ${item.school}</p>
+      <p><strong>Board:</strong> ${item.board}</p>
+      <p><strong>Year:</strong> ${item.year}</p>
+      <p><strong>Score:</strong> ${item.score}</p>
+    `;
+    container.appendChild(box);
+
+    if (index < educationData.length - 1) {
+      const arrow = document.createElement("div");
+      arrow.className = "arrow";
+      arrow.innerHTML = "&#8594;";
+      container.appendChild(arrow);
+    }
+  });
+</script>
 
 </body>
 </html>
