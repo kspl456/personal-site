@@ -206,7 +206,7 @@ header .nav-link {
 
 header .nav-link:hover, 
 header .nav-link.active {
-    color: #ff6f00; /* orange highlight on hover/active */
+    color: #ffa661; /* orange highlight on hover/active */
 }
 
 @media (max-width: 768px) {
