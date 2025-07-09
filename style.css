@@ -252,6 +252,11 @@ header .nav-link.active {
         width: 100%;
         margin: 10px 0;
     }
+    #name {
+    padding-top: 120px; /* creates space below the fixed header */
+    text-align: center;
+}
+
 }
 
 /* Mobile responsiveness for section paddings and headings */
