@@ -316,10 +316,3 @@ header .nav-link.active {
         word-break: break-word;
     }
 }
-
-#home {
-  scroll-margin-top: 120px;
-  padding-top: 120px; /* pushes content down to show below fixed header */
-  text-align: center;
-  background-color: transparent;
-}
