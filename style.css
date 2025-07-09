@@ -251,3 +251,59 @@ header .nav-link.active {
         margin: 10px 0;
     }
 }
+
+/* Mobile responsiveness for section paddings and headings */
+@media (max-width: 576px) {
+    #name {
+        font-size: 1.8em;
+        margin-top: 100px;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    section {
+        padding: 2rem 1rem;
+        margin: 3rem 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .skills-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-container {
+        padding: 1.5rem;
+    }
+
+    .edu-box {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .accordion-button {
+        font-size: 0.9rem;
+        padding: 0.75rem 1rem;
+    }
+
+    .accordion-body {
+        font-size: 0.9rem;
+    }
+
+    .list-group li,
+    section ul li {
+        font-size: 0.9rem;
+    }
+
+    .achievements-hobbies-languages section {
+        padding: 1.5rem;
+    }
+
+    #contact a,
+    #contact p {
+        font-size: 0.9rem;
+        word-break: break-word;
+    }
+}
