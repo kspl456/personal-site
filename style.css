@@ -286,6 +286,22 @@ header .nav-link.active {
     text-decoration: none;
 }
 
+.github {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    max-width: 300px;
+}
+.github:hover {
+    background-color: #ffa661;
+    color: #fff;
+}
+
 /* Mobile responsiveness for section paddings and headings */
 @media (max-width: 576px) {
     #name {
