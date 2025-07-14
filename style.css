@@ -223,6 +223,20 @@ header .nav-link:hover,
 header .nav-link.active {
     color: #ffa661;
 }
+.project-button {
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.project-button a {
+    color: white;
+    text-decoration: none;
+}
+
 
 /* Responsive styles */
 @media (max-width: 768px) {
