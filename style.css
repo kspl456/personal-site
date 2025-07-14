@@ -272,6 +272,19 @@ header .nav-link.active {
 }
 
 }
+.certificate-btn{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-color: transparent;
+    
+}
+
+.certificate-btn a {
+    color: #333;
+    text-decoration: none;
+}
 
 /* Mobile responsiveness for section paddings and headings */
 @media (max-width: 576px) {
